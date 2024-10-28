@@ -3,6 +3,7 @@ composer install
 php artisan catch:install
 php artisan catch:install --reinstall
 php artisan catch:module:install permissions
+php artisan catch:module:install permissions
 
 npm install -g cnpm --registry=http://registry.npmmirror.com
 #cnpm install element-plus --save
@@ -50,4 +51,7 @@ update hjh_permissions set component='/permissions/roles/index.vue' where id=2;
 update hjh_permissions set component='/permissions/permissions/index.vue' where id=8;
 update hjh_permissions set component='/permissions/jobs/index.vue' where id=15;
 update hjh_permissions set component='/permissions/departments/index.vue' where id=22;
+
+update hjh_permissions set component='/system/dictionary/index.vue' where id=30;
+update hjh_permissions set component='/system/dictionaryValues/index.vue' where id=36;
 ```
