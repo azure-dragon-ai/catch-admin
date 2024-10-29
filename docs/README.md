@@ -3,7 +3,9 @@ composer install
 php artisan catch:install
 php artisan catch:install --reinstall
 php artisan catch:module:install permissions
-php artisan catch:module:install permissions
+php artisan catch:module:install develop
+php artisan catch:module:install develop --f
+php artisan catch:module:install system
 
 npm install -g cnpm --registry=http://registry.npmmirror.com
 #cnpm install element-plus --save
