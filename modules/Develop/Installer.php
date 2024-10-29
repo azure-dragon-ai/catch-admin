@@ -12,8 +12,8 @@ class Installer extends ModuleInstaller
         // TODO: Implement info() method.
         return [
             'title' => '开发管理',
-            'name' => 'permissions',
-            'path' => 'permissions',
+            'name' => 'develop',
+            'path' => 'develop',
             'keywords' => 'develop',
             'description' => '开发管理模块',
             'provider' => DevelopServiceProvider::class
